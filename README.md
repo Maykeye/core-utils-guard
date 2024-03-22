@@ -21,27 +21,27 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 
 ## List of forbidden items 
 
-* "..",
-* "/bin",
-* "/boot",
-* "/dev",
-* "/efi",
-* "/etc",
-* "/home",
-* "/lib",
-* "/lib64",
-* "/mnt",
-* "/opt",
-* "/proc",
-* "/root",
-* "/run",
-* "/sbin",
-* "/srv",
-* "/sys",
-* "/tmp",
-* "/usr",
-* "/var",
-* "_GUARD_DEBUG_ENTRY_"
+* `..`,
+* `/bin`,
+* `/boot`,
+* `/dev`,
+* `/efi`,
+* `/etc`,
+* `/home`,
+* `/lib`,
+* `/lib64`,
+* `/mnt`,
+* `/opt`,
+* `/proc`,
+* `/root`,
+* `/run`,
+* `/sbin`,
+* `/srv`,
+* `/sys`,
+* `/tmp`,
+* `/usr`,
+* `/var`,
+* `_GUARD_DEBUG_ENTRY_`
 
 _GUARD_DEBUG_ENTRY_ is used for testing as even if `rm /tmp` will not delete the directory due to it being a directory
 
